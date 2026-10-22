@@ -14,7 +14,6 @@ def test_arguments_can_be_omitted()->None:
     """arguments有默认值,可以只传name"""
     call = ToolCall(name="list_tasks")
     assert call.arguments=={}
-
 #2,边界情况
 @pytest.mark.parametrize("length",[1,2,3,20])
 def test_name_of_various_lengths(length:int)->None:
@@ -35,7 +34,6 @@ def test_arguments_round_trip(raw:dict,expected:dict)->None:
     """arguments是dict[str,Any],各种键值都要能存住"""
     call=ToolCall(name="add_task",arguments=raw)
     assert call.arguments==expected
-
 #3异常情况
 def test_empty_name_raises()->None:
     with pytest.raises(ValidationError):
