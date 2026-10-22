@@ -11,3 +11,6 @@ wheels/
 
 .pytest_cache/
 out/
+.env
+.env.*
+!.env.example

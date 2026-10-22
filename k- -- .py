@@ -1,0 +1,23 @@
+[33mcommit eddbc4e1b8bae13a038d7f1961cd39735f58655b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: yanchuan <luxu_0210@qq.com>
+Date:   Thu Oct 22 14:01:55 2026 +0800
+
+    feat: 文本批量统计 CLI（测试、README、样例外）
+
+[33mcommit 69893ee7f1535d1422d71d0dcfda7e87e915ea3d[m
+Author: yanchuan <luxu_0210@qq.com>
+Date:   Tue Oct 13 15:12:21 2026 +0800
+
+    feat: asyncio 并发实验，对比串行与 gather
+
+[33mcommit 8b170d3edb4fd9de1a53131a101cc3af90a84b9f[m
+Author: yanchuan <luxu_0210@qq.com>
+Date:   Sun Oct 11 14:55:43 2026 +0800
+
+    test: 给 ToolCall 加上正常/边界/异常三类测试
+
+[33mcommit b6ea11d7a1b80b617e031e4f5ab053e1cb4de191[m
+Author: yanchuan <luxu_0210@qq.com>
+Date:   Fri Oct 9 14:35:39 2026 +0800
+
+    feat: 用 pydantic 定义 ToolCall 模型
