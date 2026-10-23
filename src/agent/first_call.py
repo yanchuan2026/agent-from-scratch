@@ -19,7 +19,7 @@ def main()->None:
             "model":MODEL,
             "messages":[
                 {"role":"system","content":"你是一个简洁的助手,回答不超过三句话。"},
-                {"role":"user","content":"用一句话解释什么是AI Agent。"},
+                {"role":"user","content":"介绍一下深圳大学。"},
             ],
             "temperature":0,
             "max_tokens":200,
